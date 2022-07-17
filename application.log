@@ -1,0 +1,83 @@
+2022-07-15 06:08:09 INFO  TestLisner:36 - Lisner : onStart
+  2022-07-15 06:08:20 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-15 06:08:20 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-15 06:08:35 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-15 06:08:40 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-15 06:08:45 INFO  TestLisner:41 - Lisner : onFinish
+  2022-07-15 11:28:43 INFO  TestLisner:36 - Lisner : onStart
+  2022-07-15 11:29:01 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-15 11:29:01 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-15 11:29:16 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-15 11:29:21 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-15 11:29:27 INFO  TestLisner:41 - Lisner : onFinish
+  2022-07-15 12:03:23 INFO  TestLisner:36 - Lisner : onStart
+  2022-07-15 12:03:34 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-15 12:03:34 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-15 12:03:47 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-15 12:03:53 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-15 12:03:58 INFO  TestLisner:41 - Lisner : onFinish
+  2022-07-17 14:03:25 INFO  TestLisner:36 - Lisner : onStart
+  2022-07-17 14:03:36 INFO  TestLisner:11 - Lisner : Test Started
+  2022-07-17 14:03:38 INFO  TestLisner:16 - Lisner : TestSuccess
+  2022-07-17 14:03:43 INFO  TestLisner:41 - Lisner : onFinish
+  2022-07-17 19:46:09 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:46:12 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:46:20 INFO  BaseClass:28 - LoginPageTitleTest Method Runing...
+  2022-07-17 19:46:26 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:46:27 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:46:35 INFO  BaseClass:35 - LoginTest Method Runing...
+  2022-07-17 19:46:46 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:46:47 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:46:56 INFO  BaseClass:41 - forgottPasswordTest Method Runing...
+  2022-07-17 19:47:05 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:47:06 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:47:25 INFO  BaseClass:34 - editTheProfileTest Method Runing...
+  2022-07-17 19:47:33 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:47:35 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:47:45 INFO  BaseClass:32 - checkProfileTextTest Method Runing...
+  2022-07-17 19:47:51 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:47:52 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:48:04 INFO  BaseClass:39 - clickOnProfileTest Method Runing...
+  2022-07-17 19:48:10 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:48:11 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:48:27 INFO  BaseClass:45 - FindFriendstextTest Method Runing...
+  2022-07-17 19:48:33 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:48:34 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:48:47 INFO  BaseClass:52 - FindFriendsVisibleTextTest Method Runing...
+  2022-07-17 19:48:53 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 19:48:54 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 19:49:13 INFO  BaseClass:58 - createStoryTest Method Runing...
+  2022-07-17 20:30:58 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:31:01 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:31:09 INFO  BaseClass:28 - LoginPageTitleTest Method Runing...
+  2022-07-17 20:31:16 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:31:17 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:31:24 INFO  BaseClass:35 - LoginTest Method Runing...
+  2022-07-17 20:31:35 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:31:36 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:31:43 INFO  BaseClass:41 - forgottPasswordTest Method Runing...
+  2022-07-17 20:32:48 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:32:51 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:32:58 INFO  BaseClass:35 - LoginTest Method Runing...
+  2022-07-17 20:35:16 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:35:19 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:35:26 INFO  BaseClass:35 - LoginTest Method Runing...
+  2022-07-17 20:41:31 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:41:33 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:41:45 INFO  BaseClass:58 - createStoryTest Method Runing...
+  2022-07-17 20:58:24 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 20:58:27 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 20:58:47 INFO  BaseClass:35 - editTheProfileTest Method Runing...
+  2022-07-17 20:59:59 INFO  BaseClass:31 - Brower Name :chrome
+  2022-07-17 21:00:02 INFO  BaseClass:35 - Application URL :https://www.facebook.com/
+  2022-07-17 21:00:15 INFO  BaseClass:58 - createStoryTest Method Runing...
+  2022-07-17 21:10:41 INFO  BaseClass:35 - Brower Name :chrome
+  2022-07-17 21:10:44 INFO  BaseClass:39 - Application URL :https://www.facebook.com/
+  2022-07-17 21:10:56 INFO  BaseClass:58 - createStoryTest Method Runing...
+  2022-07-17 21:15:03 INFO  BaseClass:35 - Brower Name :chrome
+  2022-07-17 21:15:06 INFO  BaseClass:39 - Application URL :https://www.facebook.com/
+  2022-07-17 21:15:19 INFO  BaseClass:58 - createStoryTest Method Runing...
+  2022-07-17 21:18:11 INFO  BaseClass:35 - Brower Name :chrome
+  2022-07-17 21:18:14 INFO  BaseClass:39 - Application URL :https://www.facebook.com/
+  2022-07-17 21:18:24 INFO  BaseClass:58 - createStoryTest Method Runing...
+  
