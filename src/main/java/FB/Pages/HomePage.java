@@ -3,7 +3,6 @@ package FB.Pages;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
-import org.openqa.selenium.support.ui.Select;
 
 import FB.BaseClass.BaseClass;
 
@@ -19,7 +18,7 @@ WebElement friends;
 @FindBy(xpath="//a[@aria-label='Home']")
 WebElement home;
 
-@FindBy(xpath="//div[@classs='bp9cbjyn is6700om qavdm89g gsh9l1b6 lwukve8w jpyiy761 j83agx80 k7cz35w2 taijpn5t bsnbvmp4']")
+@FindBy(xpath="//div[@class='bp9cbjyn is6700om qavdm89g gsh9l1b6 lwukve8w jpyiy761 j83agx80 k7cz35w2 taijpn5t bsnbvmp4']")
 WebElement createStory; 
 
 @FindBy(xpath="//div[text()='Create a Text Story']")
