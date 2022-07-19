@@ -30,6 +30,7 @@ e.printStackTrace();
 	}catch(IOException e) {
 		e.printStackTrace();
 	}
+	
 	}	
 	public void initialization() {
     log.info("Brower Name :"+prop.getProperty("brower"));

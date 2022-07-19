@@ -38,9 +38,15 @@ public HomePage Login(String un,String pass) throws InterruptedException {
 	return new HomePage();	
 }
 
-public ForgottPasswordPage forgottPassword() {
-	forgotpass.click();
-	return new ForgottPasswordPage();
+public void forgottPassword() {
+	forgotpass.click();	
+}
+
+public HomePage mulitipleUserLogin(String username,String passWord) {
+	userName.sendKeys(username);
+	password.sendKeys(passWord);
+	login.click();	
+	return new HomePage();
 }
 
 }

@@ -48,9 +48,8 @@ public String FindFriendsText() {
 	return friends.getText();
 }
 
-public FindFriendsPage clickOnFindFriends() {		
-	friends.click();
-	return new FindFriendsPage();	
+public void clickOnFindFriends() {		
+	friends.click();	
 	}
 
 public void createNewStory(){

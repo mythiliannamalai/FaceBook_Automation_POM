@@ -16,7 +16,7 @@ public class HomePageTest extends BaseClass{
 	LoginPage loginpage;
 	HomePage homepage;	
 	ProfilePage profilepage;
-	FindFriendsPage findfriendpage;
+	
 	
 	public HomePageTest() {
 		super();
@@ -50,7 +50,7 @@ public class HomePageTest extends BaseClass{
 	@Test(priority=4)
 	public void FindFriendsVisibleTextTest() {
 		log.info("FindFriendsVisibleTextTest Method Runing...");
-		findfriendpage = homepage.clickOnFindFriends();			
+		homepage.clickOnFindFriends();			
 	}
 	
 	@Test(priority=5)
