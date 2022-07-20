@@ -1,5 +1,6 @@
 package FB.Utility;
 
+import java.io.File;
 import java.io.FileInputStream;
 import java.io.FileNotFoundException;
 import java.io.IOException;
@@ -7,10 +8,25 @@ import java.io.IOException;
 import org.apache.poi.EncryptedDocumentException;
 import org.apache.poi.ss.usermodel.Workbook;
 import org.apache.poi.ss.usermodel.WorkbookFactory;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.io.FileHandler;
 
 import FB.BaseClass.BaseClass;
 
 public class UtilityClass extends BaseClass{
+	
+	public void failedTest(String FTname){
+		TakesScreenshot ts=(TakesScreenshot)driver;
+		  File SFile = ts.getScreenshotAs(OutputType.FILE);
+		  File DFile = new File(".\\FB.ScreenShots\\"+FTname+".png");
+		  try {
+			FileHandler.copy(SFile,DFile);
+		} catch (IOException e) {				
+			e.printStackTrace();
+		}
+	}	
+	
 public static String TestDataPath="C:\\Users\\user\\eclipse-workspace\\FB.Automation\\src\\main\\java\\FB\\TestData\\Facebook_Reg.xlsx";
 
 
@@ -38,6 +54,4 @@ public static Object[][]getTestData(String SheetName){
 	}
 	return data;	
 }
-
-
 }

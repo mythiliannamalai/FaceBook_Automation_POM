@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="FB.TestCases.SignUpPageTest">
+      <class name="FB.TestCases.ProfilePageTest">
         <methods>
-          <include name="xl_Reader"/>
+          <include name="SetUp"/>
+          <include name="tearDown"/>
+          <include name="editTheProfileTest"/>
         </methods>
-      </class> <!-- FB.TestCases.SignUpPageTest -->
+      </class> <!-- FB.TestCases.ProfilePageTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

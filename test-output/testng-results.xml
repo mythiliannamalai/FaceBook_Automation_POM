@@ -2,52 +2,52 @@
 <testng-results ignored="0" total="11" passed="11" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-07-19T05:55:21 IST" name="Suite" finished-at="2022-07-19T05:58:54 IST" duration-ms="212995">
+  <suite started-at="2022-07-20T06:42:28 IST" name="Suite" finished-at="2022-07-20T06:46:22 IST" duration-ms="233747">
     <groups>
     </groups>
-    <test started-at="2022-07-19T05:55:21 IST" name="Test" finished-at="2022-07-19T05:58:54 IST" duration-ms="212995">
+    <test started-at="2022-07-20T06:42:28 IST" name="Test" finished-at="2022-07-20T06:46:22 IST" duration-ms="233747">
       <class name="FB.TestCases.LoginPageTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:21 IST" name="setUp" finished-at="2022-07-19T05:55:31 IST" duration-ms="10424" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:42:28 IST" name="setUp" finished-at="2022-07-20T06:42:41 IST" duration-ms="12930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginPageTitleTest()[pri:1, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:31 IST" name="LoginPageTitleTest" finished-at="2022-07-19T05:55:31 IST" duration-ms="35" status="PASS">
+        <test-method signature="LoginPageTitleTest()[pri:1, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:42:41 IST" name="LoginPageTitleTest" description="get the title from the login" finished-at="2022-07-20T06:42:41 IST" duration-ms="118" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginPageTitleTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:31 IST" name="tearDown" finished-at="2022-07-19T05:55:37 IST" duration-ms="6236" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:42:41 IST" name="tearDown" finished-at="2022-07-20T06:42:47 IST" duration-ms="5308" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:37 IST" name="setUp" finished-at="2022-07-19T05:55:45 IST" duration-ms="7715" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:42:47 IST" name="setUp" finished-at="2022-07-20T06:42:56 IST" duration-ms="9120" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="LoginTest()[pri:2, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:45 IST" name="LoginTest" finished-at="2022-07-19T05:55:50 IST" duration-ms="5326" status="PASS">
+        <test-method signature="LoginTest()[pri:2, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:42:56 IST" name="LoginTest" description="user login" finished-at="2022-07-20T06:43:01 IST" duration-ms="5315" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:50 IST" name="tearDown" finished-at="2022-07-19T05:55:56 IST" duration-ms="5302" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:01 IST" name="tearDown" finished-at="2022-07-20T06:43:06 IST" duration-ms="5332" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:55:56 IST" name="setUp" finished-at="2022-07-19T05:56:04 IST" duration-ms="7897" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:06 IST" name="setUp" finished-at="2022-07-20T06:43:16 IST" duration-ms="9161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="forgottPasswordTest()[pri:3, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:04 IST" name="forgottPasswordTest" finished-at="2022-07-19T05:56:05 IST" duration-ms="1557" status="PASS">
+        <test-method signature="forgottPasswordTest()[pri:3, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:16 IST" name="forgottPasswordTest" description="check the forgot password" finished-at="2022-07-20T06:43:17 IST" duration-ms="1662" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- forgottPasswordTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:05 IST" name="tearDown" finished-at="2022-07-19T05:56:11 IST" duration-ms="6212" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:17 IST" name="tearDown" finished-at="2022-07-20T06:43:23 IST" duration-ms="5349" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:12 IST" name="setUp" finished-at="2022-07-19T05:56:20 IST" duration-ms="8190" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:24 IST" name="setUp" finished-at="2022-07-20T06:43:31 IST" duration-ms="7527" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mulitipleUserLoginTest(java.lang.String,java.lang.String)[pri:4, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:20 IST" name="mulitipleUserLoginTest" data-provider="getLoginTestData" finished-at="2022-07-19T05:56:21 IST" duration-ms="385" status="PASS">
+        <test-method signature="mulitipleUserLoginTest(java.lang.String,java.lang.String)[pri:4, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:31 IST" name="mulitipleUserLoginTest" description="check the multiple user login" data-provider="getLoginTestData" finished-at="2022-07-20T06:43:31 IST" duration-ms="435" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -63,15 +63,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mulitipleUserLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:21 IST" name="tearDown" finished-at="2022-07-19T05:56:26 IST" duration-ms="5448" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:31 IST" name="tearDown" finished-at="2022-07-20T06:43:37 IST" duration-ms="5397" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:26 IST" name="setUp" finished-at="2022-07-19T05:56:35 IST" duration-ms="8581" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:37 IST" name="setUp" finished-at="2022-07-20T06:43:44 IST" duration-ms="7216" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="mulitipleUserLoginTest(java.lang.String,java.lang.String)[pri:4, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:35 IST" name="mulitipleUserLoginTest" data-provider="getLoginTestData" finished-at="2022-07-19T05:56:35 IST" duration-ms="380" status="PASS">
+        <test-method signature="mulitipleUserLoginTest(java.lang.String,java.lang.String)[pri:4, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:44 IST" name="mulitipleUserLoginTest" description="check the multiple user login" data-provider="getLoginTestData" finished-at="2022-07-20T06:43:44 IST" duration-ms="321" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -87,83 +87,83 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- mulitipleUserLoginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@673fdbce]" started-at="2022-07-19T05:56:35 IST" name="tearDown" finished-at="2022-07-19T05:56:40 IST" duration-ms="5267" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.LoginPageTest@5812f68b]" started-at="2022-07-20T06:43:44 IST" name="tearDown" finished-at="2022-07-20T06:43:50 IST" duration-ms="5339" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FB.TestCases.LoginPageTest -->
       <class name="FB.TestCases.ProfilePageTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.ProfilePageTest@3932c79a]" started-at="2022-07-19T05:56:40 IST" name="SetUp" finished-at="2022-07-19T05:56:53 IST" duration-ms="13025" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.ProfilePageTest@53fd0d10]" started-at="2022-07-20T06:43:50 IST" name="SetUp" finished-at="2022-07-20T06:44:07 IST" duration-ms="17536" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="editTheProfileTest()[pri:1, instance:FB.TestCases.ProfilePageTest@3932c79a]" started-at="2022-07-19T05:56:53 IST" name="editTheProfileTest" finished-at="2022-07-19T05:56:58 IST" duration-ms="4148" status="PASS">
+        <test-method signature="editTheProfileTest()[pri:1, instance:FB.TestCases.ProfilePageTest@53fd0d10]" started-at="2022-07-20T06:44:07 IST" name="editTheProfileTest" description="Update profile" finished-at="2022-07-20T06:44:11 IST" duration-ms="3723" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- editTheProfileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.ProfilePageTest@3932c79a]" started-at="2022-07-19T05:56:58 IST" name="tearDown" finished-at="2022-07-19T05:57:03 IST" duration-ms="5505" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.ProfilePageTest@53fd0d10]" started-at="2022-07-20T06:44:11 IST" name="tearDown" finished-at="2022-07-20T06:44:16 IST" duration-ms="5447" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- FB.TestCases.ProfilePageTest -->
       <class name="FB.TestCases.HomePageTest">
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:03 IST" name="SetUp" finished-at="2022-07-19T05:57:18 IST" duration-ms="14528" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:16 IST" name="SetUp" finished-at="2022-07-20T06:44:32 IST" duration-ms="15828" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="checkProfileTextTest()[pri:1, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:18 IST" name="checkProfileTextTest" finished-at="2022-07-19T05:57:26 IST" duration-ms="8719" status="PASS">
+        <test-method signature="checkProfileTextTest()[pri:1, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:32 IST" name="checkProfileTextTest" description="check the profile page text" finished-at="2022-07-20T06:44:32 IST" duration-ms="95" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkProfileTextTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:26 IST" name="tearDown" finished-at="2022-07-19T05:57:32 IST" duration-ms="5883" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:32 IST" name="tearDown" finished-at="2022-07-20T06:44:38 IST" duration-ms="5445" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:32 IST" name="SetUp" finished-at="2022-07-19T05:57:44 IST" duration-ms="11612" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:38 IST" name="SetUp" finished-at="2022-07-20T06:44:52 IST" duration-ms="14366" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="clickOnProfileTest()[pri:2, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:44 IST" name="clickOnProfileTest" finished-at="2022-07-19T05:57:44 IST" duration-ms="138" status="PASS">
+        <test-method signature="clickOnProfileTest()[pri:2, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:52 IST" name="clickOnProfileTest" description="go to the profile page" finished-at="2022-07-20T06:44:52 IST" duration-ms="207" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- clickOnProfileTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:44 IST" name="tearDown" finished-at="2022-07-19T05:57:49 IST" duration-ms="5347" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:52 IST" name="tearDown" finished-at="2022-07-20T06:44:58 IST" duration-ms="5357" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:57:49 IST" name="SetUp" finished-at="2022-07-19T05:58:05 IST" duration-ms="15321" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:44:58 IST" name="SetUp" finished-at="2022-07-20T06:45:21 IST" duration-ms="23459" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="FindFriendstextTest()[pri:3, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:05 IST" name="FindFriendstextTest" finished-at="2022-07-19T05:58:05 IST" duration-ms="72" status="PASS">
+        <test-method signature="FindFriendstextTest()[pri:3, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:45:21 IST" name="FindFriendstextTest" description="check the Find friends page text" finished-at="2022-07-20T06:45:22 IST" duration-ms="930" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FindFriendstextTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:05 IST" name="tearDown" finished-at="2022-07-19T05:58:10 IST" duration-ms="5320" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:45:22 IST" name="tearDown" finished-at="2022-07-20T06:45:28 IST" duration-ms="5381" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:10 IST" name="SetUp" finished-at="2022-07-19T05:58:22 IST" duration-ms="11851" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:45:28 IST" name="SetUp" finished-at="2022-07-20T06:45:42 IST" duration-ms="14343" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="FindFriendsVisibleTextTest()[pri:4, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:22 IST" name="FindFriendsVisibleTextTest" finished-at="2022-07-19T05:58:22 IST" duration-ms="178" status="PASS">
+        <test-method signature="FindFriendsVisibleTextTest()[pri:4, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:45:42 IST" name="FindFriendsVisibleTextTest" description="go to the Find friends page" finished-at="2022-07-20T06:45:42 IST" duration-ms="235" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- FindFriendsVisibleTextTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:22 IST" name="tearDown" finished-at="2022-07-19T05:58:28 IST" duration-ms="5509" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:45:42 IST" name="tearDown" finished-at="2022-07-20T06:45:48 IST" duration-ms="5433" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:28 IST" name="SetUp" finished-at="2022-07-19T05:58:45 IST" duration-ms="17046" status="PASS">
+        <test-method is-config="true" signature="SetUp()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:45:48 IST" name="SetUp" finished-at="2022-07-20T06:46:07 IST" duration-ms="19544" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- SetUp -->
-        <test-method signature="createStoryTest()[pri:5, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:45 IST" name="createStoryTest" finished-at="2022-07-19T05:58:48 IST" duration-ms="3540" status="PASS">
+        <test-method signature="createStoryTest()[pri:5, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:46:07 IST" name="createStoryTest" description="create the story" finished-at="2022-07-20T06:46:15 IST" duration-ms="8304" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- createStoryTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@34bde49d]" started-at="2022-07-19T05:58:48 IST" name="tearDown" finished-at="2022-07-19T05:58:54 IST" duration-ms="5443" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:FB.TestCases.HomePageTest@24111ef1]" started-at="2022-07-20T06:46:16 IST" name="tearDown" finished-at="2022-07-20T06:46:22 IST" duration-ms="6219" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->

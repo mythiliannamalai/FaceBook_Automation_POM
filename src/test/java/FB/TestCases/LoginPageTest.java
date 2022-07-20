@@ -1,64 +1,83 @@
 package FB.TestCases;
+
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import FB.BaseClass.BaseClass;
-import FB.Pages.ForgottPasswordPage;
+
 import FB.Pages.HomePage;
 import FB.Pages.LoginPage;
 import FB.Utility.UtilityClass;
-public class LoginPageTest extends BaseClass {	
-	
-	LoginPage loginpage ;
-	HomePage homepage;	
+import io.qameta.allure.Description;
+import io.qameta.allure.Severity;
+import io.qameta.allure.SeverityLevel;
+import io.qameta.allure.Story;
+
+public class LoginPageTest extends BaseClass {
+
+	LoginPage loginpage;
+	HomePage homepage;
 	UtilityClass utility;
-	public static String SheetName="Sheet2";
-	
-	public LoginPageTest(){
-		super();		
+	public static String SheetName = "Sheet2";
+
+	public LoginPageTest() {
+		super();
 	}
-	 
-@BeforeMethod
-public void setUp(){
-	initialization();	
-		loginpage = new LoginPage();	
-}
 
-@Test(priority=1)
-public void LoginPageTitleTest() {
-	log.info("LoginPageTitleTest Method Runing...");
-	String title = loginpage.ValidateLoginpageTitle();
-	Assert.assertEquals(title,"Facebook – log in or sign up");
-}
+	@BeforeMethod
+	public void setUp() {
+		initialization();
+		loginpage = new LoginPage();
+	}
 
-@Test(priority=2)
-public void LoginTest() throws InterruptedException {
-	log.info("LoginTest Method Runing...");
-	homepage = loginpage.Login(prop.getProperty("username"),prop.getProperty("password"));
-}
+	@Test(priority = 1,description="get the title from the login")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("to check the title excepted or not")
+	@Story("to check the excepted title match with the actual title or not")
+	public void loginPageTitleTest() {
+		log.info("LoginPageTitleTest Method Runing...");
+		String title = loginpage.validateLoginpageTitle();
+		Assert.assertEquals(title, "Facebook – log in or sign up");
+	}
 
-@Test(priority=3)
-public void forgottPasswordTest() {
-	log.info("forgottPasswordTest Method Runing...");
-	loginpage.forgottPassword();	
-}
-@DataProvider
-public Object[][] getLoginTestData(){
-	Object data[][] = utility.getTestData(SheetName);
-	return data;
-}
+	@Test(priority = 2,description="user login")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("user login the facebook")
+	@Story("user give the valid data to login the facebook")
+	public void loginTest() throws InterruptedException {
+		log.info("LoginTest Method Runing...");
+		homepage = loginpage.Login(prop.getProperty("username"), prop.getProperty("password"));
+	}
 
-@Test(dataProvider ="getLoginTestData",priority=4)
-public void mulitipleUserLoginTest(String username,String passWord) {
-	log.info("mulitipleUserLoginTest Method Runing...");
-	loginpage.mulitipleUserLogin(username, passWord);
-	
-}
-@AfterMethod
-public void tearDown() throws InterruptedException {
-	Thread.sleep(5000);
-	driver.quit();
-}
+	@Test(priority = 3,description="check the forgot password")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("click the forgot password option")
+	@Story("check the forgot password go to the forgot password page or not")
+	public void forgottPasswordTest() {
+		log.info("forgottPasswordTest Method Runing...");
+		loginpage.forgottPassword();
+	}
+
+	@DataProvider
+	public Object[][] getLoginTestData() {
+		Object data[][] = utility.getTestData(SheetName);
+		return data;
+	}
+
+	@Test(dataProvider = "getLoginTestData", priority = 4,description="check the multiple user login")
+	@Severity(SeverityLevel.NORMAL)
+	@Description("check the multiple user login")
+	@Story("check the multiple user login working fine or not")
+	public void mulitipleUserLoginTest(String username, String passWord) {
+		log.info("mulitipleUserLoginTest Method Runing...");
+		loginpage.mulitipleUserLogin(username, passWord);
+	}
+
+	@AfterMethod
+	public void tearDown() throws InterruptedException {
+		Thread.sleep(5000);
+		driver.quit();
+	}
 }

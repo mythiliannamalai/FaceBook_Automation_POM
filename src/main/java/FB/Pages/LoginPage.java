@@ -4,49 +4,52 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
 import FB.BaseClass.BaseClass;
+import io.qameta.allure.Step;
 
-public class LoginPage extends BaseClass{
-	//Object Repository
-@FindBy(id="email")
-WebElement userName;
+public class LoginPage extends BaseClass {
+	// Object Repository
+	@FindBy(id = "email")
+	WebElement userName;
 
-@FindBy(id="pass")
-WebElement password;
+	@FindBy(id = "pass")
+	WebElement password;
 
-@FindBy(xpath="//button[@name='login']")
-WebElement login;
+	@FindBy(xpath = "//button[@name='login']")
+	WebElement login;
 
-@FindBy(linkText="Forgotten password?")
-WebElement forgotpass;
+	@FindBy(linkText = "Forgotten password?")
+	WebElement forgotpass;
 
-public LoginPage(){
-	PageFactory.initElements(driver, this);
-}
+	public LoginPage() {
+		PageFactory.initElements(driver, this);
+	}
 
-//Action
-public String ValidateLoginpageTitle() {
-	return driver.getTitle();
-}
+	@Step("Get the title from login page")
+	public String validateLoginpageTitle() {
+		return driver.getTitle();
+	}
 
-public HomePage Login(String un,String pass) throws InterruptedException {
-	userName.sendKeys(un);
-	password.sendKeys(pass);
-	login.click();
-	Thread.sleep(5000);
-	return new HomePage();	
-}
+	@Step("user login the facebook")
+	public HomePage Login(String un, String pass) throws InterruptedException {
+		userName.sendKeys(un);
+		password.sendKeys(pass);
+		login.click();
+		Thread.sleep(5000);
+		return new HomePage();
+	}
 
-public void forgottPassword() {
-	forgotpass.click();	
-}
+	@Step("check the forgott password option")
+	public void forgottPassword() {
+		forgotpass.click();
+	}
 
-public HomePage mulitipleUserLogin(String username,String passWord) {
-	userName.sendKeys(username);
-	password.sendKeys(passWord);
-	login.click();	
-	return new HomePage();
-}
+	@Step("check the multiple user login")
+	public HomePage mulitipleUserLogin(String username, String passWord) {
+		userName.sendKeys(username);
+		password.sendKeys(passWord);
+		login.click();
+		return new HomePage();
+	}
 
 }

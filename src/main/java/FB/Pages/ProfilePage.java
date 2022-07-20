@@ -10,6 +10,7 @@ import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
 import FB.BaseClass.BaseClass;
+import io.qameta.allure.Step;
 
 public class ProfilePage extends BaseClass {
 
@@ -32,22 +33,14 @@ public class ProfilePage extends BaseClass {
 	}
 	
 	//Action	
-
-	public void clickEditButtion() {		
+@Step("Edit the bio details")
+	public void clickEditButtion() throws AWTException {		
 		EditProfile.click();
-	}
-	
-	public void clickAddOption() throws AWTException {
 		Robot robot = new Robot();
 		robot.mouseWheel(1);
 		Edit.click();
-	}
-	
-	public void enterTheDescribtion() {		
 		Describe.sendKeys("Create your Happyness....");		
-	}
-	
-	public void clickSaveButton() {
 		Save.click();
 	}
+
 }

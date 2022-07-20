@@ -1,0 +1,1 @@
+{"uuid":"bc76d950-0e8a-4ac0-87bb-74615be281a4","name":"FB.TestCases.HomePageTest.SetUp","children":["a03a6978-1e2b-470b-86d2-c0cd26273fa7"],"description":"","befores":[{"name":"SetUp","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1658231086477,"stop":1658231100833}],"afters":[],"start":1658231086477,"stop":1658231100833}

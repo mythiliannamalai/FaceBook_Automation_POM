@@ -5,9 +5,11 @@ import org.testng.ITestListener;
 import org.testng.ITestResult;
 
 import FB.BaseClass.BaseClass;
+import FB.Utility.UtilityClass;
 
-public class TestLisner extends BaseClass implements ITestListener {
-	BaseClass bclass;
+public class TestLisner implements ITestListener {
+	
+	UtilityClass urility;
 	@Override
 	public void onTestStart(ITestResult result) {
 		System.out.println(result.getMethod().getMethodName()+" :onTestStart");
@@ -22,8 +24,8 @@ public class TestLisner extends BaseClass implements ITestListener {
 	public void onTestFailure(ITestResult result){
 		System.out.println(result.getMethod().getMethodName()+" :onTestFailure");  
 		String fTname=result.getMethod().getMethodName();
-		bclass = new BaseClass();
-		bclass.failedTest();				
+		urility = new UtilityClass();
+		urility.failedTest(fTname);				
 	}
 
 	@Override
